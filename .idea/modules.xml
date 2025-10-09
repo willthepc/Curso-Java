@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1 - Estrutura vondicional/1 - Estrutura Condicional.iml" filepath="$PROJECT_DIR$/1 - Estrutura vondicional/1 - Estrutura Condicional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1-EstruturaCondicional/1 - Estrutura switch-case/1 - Estrutura switch-case.iml" filepath="$PROJECT_DIR$/1-EstruturaCondicional/1 - Estrutura switch-case/1 - Estrutura switch-case.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1-EstruturaCondicional/1-EstruturaCondicional.iml" filepath="$PROJECT_DIR$/1-EstruturaCondicional/1-EstruturaCondicional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1-EstruturaCondicional/2 - Condicional ternaria/2 - Condicional ternaria.iml" filepath="$PROJECT_DIR$/1-EstruturaCondicional/2 - Condicional ternaria/2 - Condicional ternaria.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2 - Estrutura Repetitiva/2 - Estrutura Repetitiva.iml" filepath="$PROJECT_DIR$/2 - Estrutura Repetitiva/2 - Estrutura Repetitiva.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1-EstruturaCondicional/3 - Escopo e inicializacao/3 - Escopo e inicializacao.iml" filepath="$PROJECT_DIR$/1-EstruturaCondicional/3 - Escopo e inicializacao/3 - Escopo e inicializacao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1-EstruturaCondicional/Atividades/Atividades.iml" filepath="$PROJECT_DIR$/1-EstruturaCondicional/Atividades/Atividades.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Curso-Java-Nelio.iml" filepath="$PROJECT_DIR$/.idea/Curso-Java-Nelio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/1 - Estrutura vondicional/Ex1/Ex1.iml" filepath="$PROJECT_DIR$/1 - Estrutura vondicional/Ex1/Ex1.iml" />
+    </modules>
+  </component>
+</project>
