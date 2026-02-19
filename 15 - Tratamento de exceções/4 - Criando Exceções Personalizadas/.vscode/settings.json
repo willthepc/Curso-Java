@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "src1/application",
+        "src",
+        "src2/application"
+    ],
+    "java.debug.settings.onBuildFailureProceed": true
+}
