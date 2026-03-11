@@ -1,0 +1,9 @@
+1 - Crie a interface InstrumentoMusical com o método tocar().
+
+2 - Crie a classe Violao que implementa essa interface.
+
+3 - Crie a classe Piano que também implementa.
+
+Na sua classe Main, tente criar um objeto assim:
+InstrumentoMusical meuInstrumento = new Violao();
+meuInstrumento.tocar();
