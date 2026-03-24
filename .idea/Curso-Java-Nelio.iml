@@ -7,9 +7,14 @@
       <sourceFolder url="file://$MODULE_DIR$/out" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/17 - Trabalhando com Arquivos/Aula188/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/teste" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/Aula-205/1 - Não pode mais de um extends/application" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/Aula-205/1 - Não pode mais de um extends/entities" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/Aula-205/2 - Forma correta/application" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/Aula-205/2 - Forma correta/entities" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/1 - Estrutura vondicional" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="KotlinJavaRuntime" level="project" />
   </component>
 </module>

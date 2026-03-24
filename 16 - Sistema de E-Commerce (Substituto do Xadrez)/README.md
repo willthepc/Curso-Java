@@ -21,7 +21,7 @@ de back-end para processos de checkout e inventário.
 
 ✔ Java 17 (ou a versão que você usou)
 
-✔ Scanner API para entrada de dados
+✔ ConcreteScanner API para entrada de dados
 
 ✔ Paradigma de Orientação a Objetos (POO)
 
@@ -30,7 +30,7 @@ de back-end para processos de checkout e inventário.
 
 ✔ O projeto segue uma organização baseada em responsabilidades claras:
 
-✔ application: Contém o ponto de entrada do sistema (Program).
+✔ application: Contém o ponto de entrada do sistema (Program2).
 
 ✔ model.entities: Entidades principais como Product, Client, Order, OrderItem e Estoque.
 
