@@ -19,6 +19,9 @@
       <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/aula206/entities" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/aula207/application" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/aula207/services" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/Ex2/src/application" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/Ex2/src/entities" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/Ex2/src/service" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/1 - Estrutura vondicional" />
     </content>
     <orderEntry type="inheritedJdk" />
