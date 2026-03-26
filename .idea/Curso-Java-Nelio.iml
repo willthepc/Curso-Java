@@ -11,6 +11,14 @@
       <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/Aula-205/1 - Não pode mais de um extends/entities" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/Aula-205/2 - Forma correta/application" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/Aula-205/2 - Forma correta/entities" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/aula205/1 - Não pode mais de um extends/application" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/aula205/1 - Não pode mais de um extends/entities" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/aula205/2 - Forma correta/application" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/aula205/2 - Forma correta/entities" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/aula206/application" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/aula206/entities" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/aula207/application" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/18 - Interfaces/aula207/services" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/1 - Estrutura vondicional" />
     </content>
     <orderEntry type="inheritedJdk" />
