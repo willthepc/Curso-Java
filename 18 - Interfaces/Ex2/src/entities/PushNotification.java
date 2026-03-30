@@ -8,9 +8,9 @@ public class PushNotification implements Notificator {
     public boolean Validacao(String destinatario) {
         if (destinatario != null) {
             System.out.println("Procurando destino...");
-            return false;
-        } else {
             return true;
+        } else {
+            return false;
         }
     }
 }

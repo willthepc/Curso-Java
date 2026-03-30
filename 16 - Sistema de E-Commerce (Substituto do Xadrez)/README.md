@@ -32,7 +32,7 @@ de back-end para processos de checkout e inventário.
 
 ✔ application: Contém o ponto de entrada do sistema (Program2).
 
-✔ model.entities: Entidades principais como Product, Client, Order, OrderItem e Estoque.
+✔ model.services: Entidades principais como Product, Client, Order, OrderItem e Estoque.
 
 ✔ model.enums: Gerenciamento de estados de pedidos.
 
