@@ -33,6 +33,8 @@
       <sourceFolder url="file://$MODULE_DIR$/19 - Generics, Set, Map/aula211/src/application" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/19 - Generics, Set, Map/aula211/src/application1" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/19 - Generics, Set, Map/aula211/src/application2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19 - Generics, Set, Map/aula212/src/application" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19 - Generics, Set, Map/aula212/src/entities" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/1 - Estrutura vondicional" />
     </content>
     <orderEntry type="inheritedJdk" />
