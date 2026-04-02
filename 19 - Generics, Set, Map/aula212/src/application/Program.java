@@ -1,3 +1,4 @@
+import java.awt.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,7 +15,7 @@ public class Program {
         System.out.println("Total area: " + totalArea(myCircles));
     }
 
-    public static double totalArea(List<? extends Shape> list) { //Dessa forma aceita qualquer tipo de lista, e qualquer subtipo de shape
+    public static double totalArea(List<? extends Shape> list) { //Dessa forma aceita qualquer tipo lista Shape, e qualquer subtipo de shape
         double sum = 0;
         for (Shape s : list) {
             sum += s.area();
