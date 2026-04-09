@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/19 - Generics, Set, Map.iml" filepath="$PROJECT_DIR$/.idea/19 - Generics, Set, Map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula209/aula209.iml" filepath="$PROJECT_DIR$/aula209/aula209.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula210/src/aula210.iml" filepath="$PROJECT_DIR$/aula210/src/aula210.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula211/aula211.iml" filepath="$PROJECT_DIR$/aula211/aula211.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula212/src/aula212.iml" filepath="$PROJECT_DIR$/aula212/src/aula212.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula213/aula213.iml" filepath="$PROJECT_DIR$/aula213/aula213.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula214/aula214.iml" filepath="$PROJECT_DIR$/aula214/aula214.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula215/aula215.iml" filepath="$PROJECT_DIR$/aula215/aula215.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula216/aula216.iml" filepath="$PROJECT_DIR$/aula216/aula216.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula217/aula217.iml" filepath="$PROJECT_DIR$/aula217/aula217.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula210/src1/src1.iml" filepath="$PROJECT_DIR$/aula210/src1/src1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula212/src2/src2.iml" filepath="$PROJECT_DIR$/aula212/src2/src2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula212/src3/src3.iml" filepath="$PROJECT_DIR$/aula212/src3/src3.iml" />
+    </modules>
+  </component>
+</project>

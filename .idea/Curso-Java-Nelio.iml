@@ -36,6 +36,16 @@
       <sourceFolder url="file://$MODULE_DIR$/19 - Generics, Set, Map/aula212/src/application" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/19 - Generics, Set, Map/aula212/src/entities" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/19 - Generics, Set, Map/aula213/src/application" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19 - Generics, Set, Map/aula212/src/service" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19 - Generics, Set, Map/aula213/src/entities" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19 - Generics, Set, Map/aula214/application" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19 - Generics, Set, Map/aula214/entities" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19 - Generics, Set, Map/aula215/application" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19 - Generics, Set, Map/aula215/entities" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19 - Generics, Set, Map/aula216/application" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19 - Generics, Set, Map/aula216/entities" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19 - Generics, Set, Map/aula217/application" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/19 - Generics, Set, Map/aula217/entities" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/1 - Estrutura vondicional" />
     </content>
     <orderEntry type="inheritedJdk" />
