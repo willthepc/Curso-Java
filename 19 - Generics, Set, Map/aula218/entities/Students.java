@@ -1,14 +1,8 @@
 public class Students {
-    int qtd;
     int ID;
 
-    public Students(int qtd, int ID) {
-        this.qtd = qtd;
+    public Students(int ID) {
         this.ID = ID;
-    }
-
-    public int getQtd() {
-        return qtd;
     }
 
     public int getID() {
@@ -18,8 +12,6 @@ public class Students {
     public void setID(int ID) {
         this.ID = ID;
     }
-
-    public void contagem()
 
     @Override
     public boolean equals(Object o) {
