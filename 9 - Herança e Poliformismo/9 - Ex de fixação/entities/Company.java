@@ -1,5 +1,3 @@
-package entities;
-
 public class Company extends TaxPayer{
     private int numberOfEmployees;
 
@@ -18,6 +16,10 @@ public class Company extends TaxPayer{
 
     @Override
     public Double tax() {
-        return 1.0;
+        if (getNumberOfEmployees() > 10) {
+            return getAnuallncome() * (14.0 / 100);
+        } else {
+            return getAnuallncome() * (16.0 / 100);
+        }
     }
 }

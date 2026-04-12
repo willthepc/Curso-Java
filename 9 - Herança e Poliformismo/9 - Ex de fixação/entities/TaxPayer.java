@@ -1,6 +1,4 @@
-package entities;
-
-public abstract class TaxPayer {
+ abstract class TaxPayer {
     private String name;
     private Double anuallncome;
 

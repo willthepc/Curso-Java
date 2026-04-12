@@ -1,5 +1,3 @@
-package entities;
-
 public class Individual extends TaxPayer {
     private double healthExpenditures;
 
@@ -12,12 +10,18 @@ public class Individual extends TaxPayer {
         return healthExpenditures;
     }
 
-    public void setHealthExpenditures(double heatlhExpenditures) {
-        this.healthExpenditures = healthExpenditures;
-    }
-
     @Override
     public Double tax() {
-        return 1.0;
+        if (getHealthExpenditures() != 0 && getAnuallncome() < 20000) {
+            return (getAnuallncome() * (15.0 / 100)) - getHealthExpenditures() * (50.0/100);
+        } else if (getHealthExpenditures() != 0 && getAnuallncome() > 20000) {
+            return (getAnuallncome() * (25.0 / 100)) - getHealthExpenditures() * (50.0/100);
+        } else {
+            if (getAnuallncome() < 20000) {
+                return getAnuallncome() * (15.0 / 100);
+            } else {
+                return getAnuallncome() * (25.0 / 100);
+            }
+        }
     }
 }

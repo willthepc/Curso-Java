@@ -1,11 +1,6 @@
-package application;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import entities.Individual;
-import entities.TaxPayer;
-import entities.Company;
 
 public class Program {
     public static void main(String[] args) {
@@ -15,11 +10,11 @@ public class Program {
         System.out.println("Enter the number of tax payer: ");
         int qtd = sc.nextInt();
 
-        for (int i = 0; i <= qtd; i++) {
-            System.out.println("Tax payer #" + i + " data: ");
+        for (int i = 1; i <= qtd; i++) {
+            System.out.println("Tax payer #" + (i) + " data: ");
             System.out.println("Individual or company (i/c): ");
             String option = sc.next();
-            if (option == "i") {
+            if (option.equals("i")) {
                 System.out.println("Name: ");
                 String name = sc.next();
                 System.out.println("Anual income: ");
@@ -28,7 +23,7 @@ public class Program {
                 double healthExpenditures = sc.nextDouble();
                 TaxPayer taxpayer = new Individual(name, anuallncome, healthExpenditures);
                 list.add(taxpayer);
-            } else if (option == "c") {
+            } else if (option.equals("c")) {
                 System.out.println("Name: ");
                 String name = sc.next();
                 System.out.println("Anual income: ");
@@ -39,8 +34,12 @@ public class Program {
                 list.add(taxPayer);
             }
         }
+
+        Double valorFinal = 0.0;
         for (TaxPayer taxa : list) {
-        
+            System.out.println(taxa.getName() + " -> " + String.format("%.2f", taxa.tax()));
+            valorFinal += taxa.tax();
         }
+        System.out.println("\nValor final: " + String.format("%.2f", valorFinal));
     }
 }
