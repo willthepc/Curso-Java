@@ -48,6 +48,7 @@
       <sourceFolder url="file://$MODULE_DIR$/19 - Generics, Set, Map/aula217/entities" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/9 - Herança e Poliformismo/9 - Ex de fixação/application" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/9 - Herança e Poliformismo/9 - Ex de fixação/entities" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20 - Programação funcional e Expressões Lambda/1 - Uma experiência com compators/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/1 - Estrutura vondicional" />
     </content>
     <orderEntry type="inheritedJdk" />
