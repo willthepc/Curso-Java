@@ -19,7 +19,7 @@ de back-end para processos de checkout e inventário.
 
 <h2>🛠️ Tecnologias Utilizadas</h2>
 
-✔ Java 17 (ou a versão que você usou)
+✔ Java 24
 
 ✔ ConcreteScanner API para entrada de dados
 
