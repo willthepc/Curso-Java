@@ -1,0 +1,12 @@
+----- OPERAÇÕES INTERMEDIÁRIAS ----
+
+- filter
+- map
+- flatmap
+- peek
+- dinstict
+- sorted
+- skip
+- limit (*)
+
+* short-circuit
