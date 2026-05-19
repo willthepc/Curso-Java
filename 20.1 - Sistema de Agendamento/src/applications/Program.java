@@ -106,17 +106,17 @@ public class Program {
                         System.out.println("Cliente encontrado! Especialidade desejada: ");
                         String especialidadeDesejada = sc.next();
 
-                        if (especialidadeDesejada.equals("clinicogeral")) {
-                            especialidadeDesejada = String.valueOf(Especialidade.CLINICO_GERAL);
-                        } else if (especialidadeDesejada.equals("cardiologista")) {
-                            especialidadeDesejada = String.valueOf(Especialidade.CARDIOLOGISTA);
-                        } else if (especialidadeDesejada.equals("dermatologista")) {
-                            especialidadeDesejada = String.valueOf(Especialidade.DERMATOLOGISTA);
-                        } else {
-                            especialidadeDesejada = null;
-                            System.out.println("Nossa clínica não atende a esse serviço.");
-                        }
+                        if (especialidadeDigitada.equals("CLINICOGERAL")) {
+                        especialidadeDigitada = "CLINICO_GERAL";
+                    }
 
+                    Especialidade especialidade = null;
+                    try {
+                        especialidade = Especialidade.valueOf(especialidadeDigitada);
+                    } catch (IllegalArgumentException e) {
+                        System.out.println("Nossa clínica não atende a esse serviço.");
+                        continue;
+                    }
                         try (Stream<String> stream = Files.lines(Paths.get(pathMedicos))) {
                             String finalEspecialidadeDesejada = especialidadeDesejada;
                             especialidadeExiste = stream.anyMatch(linha -> linha.split(",")[3]
