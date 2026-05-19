@@ -104,10 +104,10 @@ public class Program {
 
                     if (clienteExiste) {
                         System.out.println("Cliente encontrado! Especialidade desejada: ");
-                        String especialidadeDesejada = sc.next();
+                        String especialidadeDesejada = sc.next().toUpperCase();
 
-                        if (especialidadeDigitada.equals("CLINICOGERAL")) {
-                        especialidadeDigitada = "CLINICO_GERAL";
+                        if (especialidadeDesejada.equals("CLINICOGERAL")) {
+                        especialidadeDesejada = "CLINICO_GERAL";
                     }
 
                     Especialidade especialidade = null;
