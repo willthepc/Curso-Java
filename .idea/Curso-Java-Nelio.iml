@@ -49,6 +49,11 @@
       <sourceFolder url="file://$MODULE_DIR$/9 - Herança e Poliformismo/9 - Ex de fixação/application" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/9 - Herança e Poliformismo/9 - Ex de fixação/entities" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/20 - Programação funcional e Expressões Lambda/1 - Uma experiência com compators/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20.1 - Sistema de Agendamento/src/applications" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20.1 - Sistema de Agendamento/src/model/entities" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20.1 - Sistema de Agendamento/src/model/enums" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20.1 - Sistema de Agendamento/src/model/exceptions" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/20.1 - Sistema de Agendamento/src/model/services" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/1 - Estrutura vondicional" />
     </content>
     <orderEntry type="inheritedJdk" />
