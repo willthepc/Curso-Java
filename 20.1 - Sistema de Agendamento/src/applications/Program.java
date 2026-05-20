@@ -32,60 +32,77 @@ public class Program {
             );
 
             opt = sc.nextInt();
+            sc.nextLine();
             if (opt.equals(1)) {
                     System.out.println("Digite seu nome: ");
-                    String nome = sc.next();
+                    String nome = sc.nextLine();
                     System.out.println("Digite seu CPF: ");
-                    String cpf = sc.next();
+                    String cpf = sc.nextLine();
                     System.out.println("Digite seu telefone: ");
-                    String telefone = sc.next();
+                    String telefone = sc.nextLine();
                     System.out.println("Digite oberservações: ");
-                    String observacoesMedicas = sc.next();
+                    String observacoesMedicas = sc.nextLine();
 
-                    cliente = new Cliente(nome, cpf, telefone, observacoesMedicas);
-
-                    ArquivoService.salvarCliente(cliente);
-                    System.out.println("Cliente cadastrado com sucesso!");
+                    try {
+                        boolean cpfExiste = false;
+                        try (Stream<String> stream = Files.lines(Paths.get(pathPessoas))) {
+                            cpfExiste = stream.anyMatch(linha -> linha.split(",")[1].equals(cpf));
+                        }
+                        if (cpfExiste) {
+                            throw new DomainException("Este CPF já está cadastrado!");
+                        }
+                        cliente = new Cliente(nome, cpf, telefone, observacoesMedicas);
+                        ArquivoService.salvarCliente(cliente);
+                        System.out.println("Cliente cadastrado com sucesso!");
+                    } catch (DomainException e) {
+                        System.out.println("❌ " + e.getMessage());
+                    } catch (IOException e) {
+                        System.out.println("Erro técnico ao ler o arquivo: " + e.getMessage());
+                    }
 
             } else if (opt.equals(2)) {
                 System.out.println("Senha: ");
                 Integer senhaUser = sc.nextInt();
 
-                if (senhaUser.equals(pass)) {
-                    System.out.println("Digite seu nome: ");
-                    String nome = sc.next();
-
-                    System.out.println("Digite seu CPF: ");
-                    String cpf = sc.next();
-
-                    System.out.println("Digite seu telefone: ");
-                    String telefone = sc.next();
-
-                    System.out.println("Qual sua especialidade (ex: cardiologista, clinicogeral): ");
-                    String especialidadeDigitada = sc.next().toUpperCase();
-
-                    if (especialidadeDigitada.equals("CLINICOGERAL")) {
-                        especialidadeDigitada = "CLINICO_GERAL";
+                try {
+                    if(!senhaUser.equals(pass)) {
+                     throw new DomainException("Senha de admnistrador incorreta. Acesso negado!");
                     }
+                        System.out.println("Digite seu nome: ");
+                        String nome = sc.nextLine();
 
-                    Especialidade especialidade = null;
-                    try {
-                        especialidade = Especialidade.valueOf(especialidadeDigitada);
-                    } catch (IllegalArgumentException e) {
-                        System.out.println("Nossa clínica não atende a esse serviço.");
-                        continue;
-                    }
+                        System.out.println("Digite seu CPF: ");
+                        String cpf = sc.nextLine();
 
-                    System.out.println("Qual seu CRM: ");
-                    String crm = sc.next();
+                        System.out.println("Digite seu telefone: ");
+                        String telefone = sc.nextLine();
 
-                    medico = new Medico(nome, cpf, telefone, especialidade, crm);
+                        System.out.println("Qual sua especialidade (ex: cardiologista, clinicogeral): ");
+                        String especialidadeDigitada = sc.nextLine().toUpperCase();
 
-                    ArquivoService.salvarMedico(medico);
-                    System.out.println("Médico cadastrado com sucesso!");
 
-                } else {
-                    System.out.println("Senha incorreta...");
+                        if (especialidadeDigitada.equals("CLINICOGERAL")) {
+                            especialidadeDigitada = "CLINICO_GERAL";
+                        }
+
+                        Especialidade especialidade = null;
+                        try {
+                            especialidade = Especialidade.valueOf(especialidadeDigitada);
+                        } catch (IllegalArgumentException e) {
+                            System.out.println("Nossa clínica não atende a esse serviço.");
+                            continue;
+                        }
+
+                        System.out.println("Qual seu CRM: ");
+                        String crm = sc.next();
+
+                        medico = new Medico(nome, cpf, telefone, especialidade, crm);
+
+                        ArquivoService.salvarMedico(medico);
+                        System.out.println("Médico cadastrado com sucesso!");
+
+                    } catch (DomainException e) {
+                    System.out.println("❌ " + e.getMessage());
                 }
 
             } else if (opt.equals(3)) {
@@ -112,7 +129,7 @@ public class Program {
 
                     Especialidade especialidade = null;
                     try {
-                        especialidade = Especialidade.valueOf(especialidadeDigitada);
+                        especialidade = Especialidade.valueOf(especialidadeDesejada);
                     } catch (IllegalArgumentException e) {
                         System.out.println("Nossa clínica não atende a esse serviço.");
                         continue;
@@ -183,11 +200,6 @@ public class Program {
                     } catch (IOException e) {
                         System.out.println("Erro: " + e.getMessage());
                     }
-
-
-                } else if (opt.equals(999)) {
-                    System.out.println("Programa encerrando...");
-                    break;
                 } else {
                     System.out.println("Option unknown.");
                 }

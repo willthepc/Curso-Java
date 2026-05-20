@@ -5,7 +5,6 @@ abstract class Pessoa {
     private String name;
     private String cpf;
     private String telefone;
-    public ArrayList<Pessoa> pessoas;
 
     public Pessoa() {}
     public Pessoa(String name, String cpf, String telefone) {
