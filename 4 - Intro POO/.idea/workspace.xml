@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="baf8f6e4-ceb5-4ad6-9641-3babd4e7a8a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../21 - Acesso a Banco de Dados com JDBC/7 - Projeto DAO/demo-dao-jdbc/src/application/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21 - Acesso a Banco de Dados com JDBC/7 - Projeto DAO/demo-dao-jdbc/src/model/dao/DaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21 - Acesso a Banco de Dados com JDBC/7 - Projeto DAO/demo-dao-jdbc/src/model/dao/DepartmentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21 - Acesso a Banco de Dados com JDBC/7 - Projeto DAO/demo-dao-jdbc/src/model/dao/SellerDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21 - Acesso a Banco de Dados com JDBC/7 - Projeto DAO/demo-dao-jdbc/src/model/dao/entities/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21 - Acesso a Banco de Dados com JDBC/7 - Projeto DAO/demo-dao-jdbc/src/model/dao/entities/Seller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21 - Acesso a Banco de Dados com JDBC/7 - Projeto DAO/demo-dao-jdbc/src/model/dao/impl/SellerDaoJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/Curso-Java-Nelio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Curso-Java-Nelio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../21 - Acesso a Banco de Dados com JDBC/7 - Projeto DAO/.idea/7 - Projeto DAO.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../21 - Acesso a Banco de Dados com JDBC/7 - Projeto DAO/.idea/7 - Projeto DAO.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../21 - Acesso a Banco de Dados com JDBC/7 - Projeto DAO/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../21 - Acesso a Banco de Dados com JDBC/7 - Projeto DAO/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../21 - Acesso a Banco de Dados com JDBC/7 - Projeto DAO/demo-dao-jdbc/src/db/DB.java" beforeDir="false" afterPath="$PROJECT_DIR$/../21 - Acesso a Banco de Dados com JDBC/7 - Projeto DAO/demo-dao-jdbc/src/db/DB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../21 - Acesso a Banco de Dados com JDBC/7 - Projeto DAO/demo-dao-jdbc/src/db/tst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1 - Um problema sem POO e com POO/1 - Um problema sem POO e com POO.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2 - Outro problema com POO/2 - Outro problema com POO.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3 - Exercicios pt.1/alunos/alunos.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3 - Exercicios pt.1/funcionarios/funcionarios.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3 - Exercicios pt.1/retangulo/retangulo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4 - Intro POO.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/4 - Membros estaticos pt.1/4 - Membros estaticos pt.1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5 - Membros estaticos pt.2/5 - Membros estaticos pt.2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6 - Exercicios pt.2/6 - Exercicios pt.2.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "willthepc"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/willthepc/Curso-Java.git",
+    "accountId": "53c49f64-0dc4-4bea-8ecf-e6c7fa1daa8e"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="3FmUPESmSjNyiLmwSOiNxpCs3eI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "nelio",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Curso-Java/4 - Intro POO",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26830.84" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-IU-252.26830.84" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="baf8f6e4-ceb5-4ad6-9641-3babd4e7a8a4" name="Changes" comment="" />
+      <created>1782679712815</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782679712815</updated>
+      <workItem from="1782679713975" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

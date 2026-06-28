@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1 - Um problema sem POO e com POO/1 - Um problema sem POO e com POO.iml" filepath="$PROJECT_DIR$/1 - Um problema sem POO e com POO/1 - Um problema sem POO e com POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2 - Outro problema com POO/2 - Outro problema com POO.iml" filepath="$PROJECT_DIR$/2 - Outro problema com POO/2 - Outro problema com POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4 - Intro POO.iml" filepath="$PROJECT_DIR$/4 - Intro POO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4 - Membros estaticos pt.1/4 - Membros estaticos pt.1.iml" filepath="$PROJECT_DIR$/4 - Membros estaticos pt.1/4 - Membros estaticos pt.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5 - Membros estaticos pt.2/5 - Membros estaticos pt.2.iml" filepath="$PROJECT_DIR$/5 - Membros estaticos pt.2/5 - Membros estaticos pt.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6 - Exercicios pt.2/6 - Exercicios pt.2.iml" filepath="$PROJECT_DIR$/6 - Exercicios pt.2/6 - Exercicios pt.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3 - Exercicios pt.1/alunos/alunos.iml" filepath="$PROJECT_DIR$/3 - Exercicios pt.1/alunos/alunos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3 - Exercicios pt.1/funcionarios/funcionarios.iml" filepath="$PROJECT_DIR$/3 - Exercicios pt.1/funcionarios/funcionarios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3 - Exercicios pt.1/retangulo/retangulo.iml" filepath="$PROJECT_DIR$/3 - Exercicios pt.1/retangulo/retangulo.iml" />
+    </modules>
+  </component>
+</project>
