@@ -13,7 +13,6 @@ Atualmente focado no ecossistema Java, desenvolvendo habilidades que abrangem de
 ### 🛠️ Frameworks & Ferramentas
 * **Spring Ecosystem:** Spring Boot, Spring Data JPA e Spring Data MongoDB (NoSQL).
 * **Persistência de Dados:** JPA / Hibernate (ORM) e JDBC (SQL).
-* **Interface Gráfica:** JavaFX.
 * **Build & Versionamento:** Maven (Gerenciamento de dependências) e Git/GitHub.
 
 ---
